@@ -13,7 +13,6 @@ header {
 }
 .header--logo {
     margin: 10px;
-    display: flex;
 }
 .header--logo div {
     margin: 0 10px;
@@ -21,16 +20,14 @@ header {
     height: 25px;
     background-color: white;
 }
-
 .cat li:hover {
     background-color: blue;
-
 }
 .cat {
     padding: 5px;
-    margin: 0;
+    margin: auto 0;    
 }
-.header--logo .cat li {
+header .cat li {
     list-style: none;
     margin: 0;
 }                                                                                                                     
@@ -64,66 +61,59 @@ header {
 .cat li:hover > ul {
     display: block;
 }
-.header--account {
-    display: flex;
-    margin-right: 10px;
-}
-.header--account .input span {
-    background-color: white;
-    
-}
-.header--account .input {
-    align-self: center;
-    margin: 0;
-}
-.header--account .input input{
+header input{
     height: 25px;
     width: 100px;
     padding:  0 10px;
     border-radius: 30px;
     border: 1px solid white;
+    margin: auto 0;
     background-color: black;
     color: white;
 }
-.header--account .cuadro{
-    margin: auto  10px;
-    background-color: white;
-    width: 25px;
-    height: 25px;
+.carro{
+    margin: auto  0px;
 }
 .main--picture {
-    width: 95%;
-    color: black;
-    margin: auto;
+    width: 90%;
+    color: white;
+    margin: 10px auto;
     text-align: center;
-    padding-top: 10px;
+    background-color: black;
 }
 .main--picture h1 {
     margin: 0;
     font-size: 16px;
+}
+.main--product p {
+    margin: 0;
 }
 .main--picture div {
     width: 100%;
     height: 140px;
     border: 1px solid black;
 }
-.main--product h2{
-    text-align: center;
+.main--product a {
+    margin: 5px;
+    padding: 5px;
+    border: black solid 1px;
 }
-.main--product .pr {
+.main--product {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
-.main--product .pr div{
-    border: black 1px solid;
-    border-radius: 10pxº;
-    width: 135px;
-    height: 150px;
-    margin: 10px auto;
-    color: white;
+.main--product a img{
+    width: 115px;
+    margin: 0 10px;
+}
+h3  {
+    margin: 0;
 }
 footer {
     width: 100%;
     background-color: black;
     color: white;
+    text-align: center;
 }
