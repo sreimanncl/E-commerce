@@ -30,39 +30,21 @@ header a, .carro, .user{
     width: 20px;
 }
 .user {
-    width: 20px;
+    width: 25px;
 }
 main .sign-up {
-    width: 280px;
-    text-align: center;
     color: white;
     margin: 5px auto;
     padding: 20px 0;
-    border-radius: 300px;
+    border-radius: 3px;
     background-color: black;
 }
-main .sign-up .title a,p {
+main .sign-up a,p {
     display: flex;
     justify-content: center;
     color: white;
     text-decoration: none;
     margin: auto 15px;
-}
-main .sign-up input {
-    margin: 6px 0;
-    border-radius: 10px;
-}
-.sign-up .user-2 {
-    margin: 0 auto;
-    text-align: justify;
-}
-.sign-up .user-2 a {
-    color: white;
-    margin-left: 60px;
-    font-size: 14px;
-    padding: 10px;
-    text-decoratin: none;
-    
 }
 .main--picture h1 {
     margin: 0;
