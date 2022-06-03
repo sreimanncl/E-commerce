@@ -30,13 +30,23 @@ main .login-social{
     width: 250px;
     margin: auto;
     height: 35px;
+    text-align: center;
+}
+.login-social .social-fb a {
+    color: white;
+    text-decoration: none;
 }
 .login-social .social-google {
     background-color: blue;
     width: 250px;
     margin: 5px auto;
     height: 35px;
+    text-align: center;
        
+}
+.login-social .social-google  a {
+    color: white;
+    text-decoration: none;
 }
 .o {
     text-align: center;
