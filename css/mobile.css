@@ -119,4 +119,15 @@ main .main--product .exclusives .exclusives--shirt {
     color: black;
     padding: 0;
 }
-
+footer {
+    background-color: black;
+    padding: 10px;
+    margin: 5px 0 0 0;
+}
+.social {
+    display: flex;
+}
+footer .social a img {
+    width: 20px;
+    height: 20px;
+}
